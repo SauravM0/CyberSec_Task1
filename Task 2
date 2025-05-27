@@ -1,0 +1,25 @@
+Phishing Email Analysis Report
+Internship Task 2 - Cyber Security
+
+1. Email Overview
+Sender Address: support@pay-pal-secure.com
+
+Subject Line: Urgent: Your Account Has Been Suspended!
+
+Received Date: 26 May 2025, 11:45 AM
+
+Attachments: Invoice.pdf (Suspicious)
+
+2. Analyzing Phishing Characteristics
+Phishing Trait	Details in Email
+Sender Spoofing	The email claims to be from PayPal, but the domain (pay-pal-secure.com) is not a legitimate PayPal domain.
+Urgency & Fear Tactics	The email states that my account will be permanently blocked if I don’t respond within 24 hours.
+Suspicious Links	A button labeled “Verify Now” leads to http://verify-login-paypal.com, which is not an official PayPal website.
+Grammar & Spelling Errors	"Your account has been suspand due to unusuals activities."
+Fake Branding & Logo	The PayPal logo in the email appears blurry, indicating possible image manipulation.
+Mismatched URLs	Hovering over the “Verify Now” link shows a different URL than the one displayed in the text.
+3. Email Header Analysis
+Using an Email Header Analyzer, I discovered: ✔ The Return-Path differs from PayPal’s domain. ✔ The Received SPF (Sender Policy Framework) record does not match PayPal’s mail servers. ✔ The DKIM signature is missing, which is unusual for legitimate business emails.
+
+4. Conclusion & Security Recommendations
+✅ This email is a phishing attempt designed to steal PayPal login credentials. ✅ If received, DO NOT click on any links or attachments. ✅ Report & delete the email immediately using PayPal’s official fraud report system. ✅ Always verify sender details & email authenticity before taking action.
